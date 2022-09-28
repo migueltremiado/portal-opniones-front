@@ -1,0 +1,68 @@
+textarea[name="content"],
+input[name="title"] {
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "SecularOne-Regular";
+}
+
+textarea[name="content"] {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.hackList {
+  width: 85%;
+  margin: 200px auto;
+  word-break: break-word;
+}
+.hack-title {
+  border-bottom: 2px solid var(--primary-color);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.hack-user-data {
+  border-top: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+}
+.hack p {
+  margin: 5px;
+}
+.hack-li {
+  font-family: 12px;
+  list-style-type: none;
+  border-radius: 10px;
+  border: 0.5px solid var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 32px;
+}
+.list {
+  padding: 20px;
+}
+.delete {
+  margin: 16px;
+}
+
+.new-hack-main {
+  width: 80%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 128px auto;
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 300px) {
+  .new-hack-main {
+    width: 90%;
+  }
+}

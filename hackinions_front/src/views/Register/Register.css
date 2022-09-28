@@ -1,0 +1,40 @@
+.register-main {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 128px auto;
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form input[type="Apodo"],
+form input[type="Name"],
+form input[type="LastName"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "SecularOne-Regular";
+}
+
+form textarea[type="Bio"] {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  vertical-align: bottom;
+  font-size: 18px;
+  resize: vertical;
+  font-family: "SecularOne-Regular";
+}
+@media screen and (max-width: 300px) {
+  .register-main {
+    width: 90%;
+  }
+}
